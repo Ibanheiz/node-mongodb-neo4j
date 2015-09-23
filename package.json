@@ -1,0 +1,37 @@
+{
+  "name": "node-mongodb-neo4j",
+  "version": "1.0.0",
+  "description": "Mongraph sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ibanheiz/node-mongodb-neo4j"
+  },
+  "keywords": [
+    "node",
+    "neo4j",
+    "mongodb",
+    "mongraph"
+  ],
+  "author": "Nicolas Ibanheiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibanheiz/node-mongodb-neo4j/issues"
+  },
+  "homepage": "https://github.com/Ibanheiz/node-mongodb-neo4j",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "compression": "^1.5.2",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.8",
+    "mongraph": "^0.2.0",
+    "morgan": "^1.6.1",
+    "neo4j": "^1.1.1",
+    "nodemon": "^1.7.0"
+  }
+}
