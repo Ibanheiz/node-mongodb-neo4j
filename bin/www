@@ -4,7 +4,8 @@ var app = require('./../app');
 
 var mongoose = require('mongoose');
 var neo4j    = require('neo4j');
-var graphdb  = new neo4j.GraphDatabase('http://localhost:7474');
+var graphdb  = new neo4j.GraphDatabase('http://neo4j:Senhas@localhost:7474'); // Alterar Senha
+
 require('./../conexao/mongo')('mongodb://localhost/vaiserrimando', mongoose);
 require('./../conexao/mongraph')(graphdb, mongoose);
 

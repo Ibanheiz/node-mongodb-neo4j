@@ -7,8 +7,9 @@ module.exports = function (mongoose) {
 		nome: {type: String,  default: ''},
 		estado: {type: String,  default: ''},
 	    dataCadastro: { type: Date, default: Date.now },
-	    ativo: { type: Boolean, default: 1}
+	    ativo: { type: Boolean, default: true}
 	});
+	UserSchema.set('graphability', true)
 
 	return mongoose.model('User', UserSchema);
 }
